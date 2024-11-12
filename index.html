@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+    <!-- Menu de informações -->
+    <div class="menu">
+        <span id="cronometro">Tempo: 00:00</span>
+        <span id="contagem-erros">Erros: 0</span>
+        <span>|</span>
+        <span id="melhor-tempo">Melhor Tempo: --:--</span>
+    </div>
+    
+    <div class="container">
+        <h2>JOGO DA MEMÓRIA</h2>
+        <div class="jogo"></div>
+        <button class="reiniciar" onclick="reiniciarJogo()">REINICIAR JOGO</button>
+    </div>
+
+    <script src="./src/scripts/engine.js" defer></script>
+</body>
+</html>
