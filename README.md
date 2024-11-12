@@ -2,7 +2,7 @@
 
 Este é um jogo da memória simples desenvolvido com HTML, CSS e JavaScript. O jogador deve combinar pares de cartas para ganhar o jogo. O jogo também inclui um cronômetro, um contador de erros e armazena o melhor tempo do jogador.
 
-Foi desenvolvido para reproduzir passo passo o projeto visto na aula de Felipe Aguiar, Tech Educator na DIO, ao final.
+Foi desenvolvido para reproduzir o projeto visto na aula de Felipe Aguiar, Tech Educator na DIO. Foi modificado para completar o desafio DIO.
 
 ## Funcionalidades
 
